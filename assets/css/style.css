@@ -226,10 +226,12 @@ footer {
 }
 
 /*MEDIA QUERIES*/
+
+/*MEDIA QUERIES 980*/
 @media only screen and (max-width: 980px) {
-    .bio-image {
+	.bio-image {
 		width: 95%;
-        margin: 10px;       
+		margin: 10px;       
 	}
 }
 
@@ -241,38 +243,60 @@ nav {
 	margin-left: 10px;
 }
 
-
+/*MEDIA QUERIES 768*/
 @media only screen and (max-width: 768px) {
-      .connectwithme {
-         float: left;
-         max-width: 100%;
-         padding-right: 40px;
-           
-     }
+	.connectwithme {
+		float: left;
+		max-width: 88%;
+		padding-right: 40px;
+
 }
 
-nav {
+	nav {
 	padding-right: 30px;
 }
 
-#main-container {
+	#main-container {
 	padding-left: 30px;
-}        
+} 
+
+#nametab {
+	margin-left: 20px;
+}
+
+}
 
 
+
+/*MEDIA QUERIES 640*/
 @media only screen and (max-width: 640px) {
-      .connectwithme {
-         float: left;
-         max-width: 100%;
-         padding-right: 40px;
-         padding-left: 40px; 
-		;
-            }
+	.connectwithme {
+		float: left;
+		max-width: 99%;
+		padding-right: 40px;
+		padding-left: 40px; 
+		
+	} 
+	nav {
+		float: left;
+		margin-left: 150px;
+	}
+	#nametab {
+		width: 100%;
+	}
+
+	#main-container {
+		padding-right: 70px;
+	}
+	
+
+
 }
 
-nav {
 
-}
+
+
+
 
 
 
